@@ -1,30 +1,48 @@
-# Personal Finance Tracker (w AI)
+# 💸 Personal Finance Tracker (with AI-Powered Insights)
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern personal finance dashboard built with **Next.js**, **React**, **Tailwind CSS**, and **Firebase**, enhanced with **OpenAI** to generate smart financial tips. Track your spending, visualize expenses, and get actionable savings advice — all in one sleek interface.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sri12389s-projects/v0-personal-finance-tracker-w-ai)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/9NmsGwM4fzk)
+![image](https://github.com/user-attachments/assets/cb9af91d-0f31-4f3c-a45f-85e926e844b2)
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+## ⚙️ Features
 
-Your project is live at:
+- 🔐 **Secure Authentication** with Firebase
+- 💳 **Expense Tracking** (manual + Plaid API/mocked integration)
+- 📊 **Real-Time Firestore Database** for syncing and storing transactions
+- 🧠 **AI Insights** using OpenAI to suggest budget improvements
+- 🎨 **Responsive UI** built with Tailwind CSS and shadcn/ui
+- 🔍 **Filters** for category/date ranges and full CRUD support
+- 🧭 **Persistent State** with Firestore-backed pagination
 
-**[https://vercel.com/sri12389s-projects/v0-personal-finance-tracker-w-ai](https://vercel.com/sri12389s-projects/v0-personal-finance-tracker-w-ai)**
+---
 
-## Build your app
+## 🧱 Tech Stack
 
-Continue building your app on:
+| Tech | Purpose |
+|------|---------|
+| **Next.js (App Router)** | Framework + Routing |
+| **React + Tailwind CSS** | Frontend UI |
+| **Firebase** | Auth + Firestore |
+| **Plaid API (optional)** | Bank account integration |
+| **OpenAI API** | Financial tips & insights |
+| **Vercel** | Deployment |
 
-**[https://v0.dev/chat/projects/9NmsGwM4fzk](https://v0.dev/chat/projects/9NmsGwM4fzk)**
+---
 
-## How It Works
+## 📸 Preview
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+| Dashboard | Add Transaction | AI Insights |
+|----------|----------------|-------------|
+| ![](./public/dashboard.png) | ![](./public/add.png) | ![](./public/insights.png) |
+
+---
+
+## 🛠️ Local Development
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/personal-finance-tracker.git
+cd personal-finance-tracker
